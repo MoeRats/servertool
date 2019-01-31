@@ -53,18 +53,20 @@ lsmod | grep bbr
 取自世界多处的知名数据中心的测试点，下载测试比较全面；
 支持 IPv6 下载测速；
 IO 测试三次，并显示平均值。
-#### 使用命令
-```bash
-Usage:
-
-| No.      | Bash Command                    |
-|----------|---------------------------------|
-| 1        | wget -qO- bench.sh | bash       |
-| 2        | curl -Lso- bench.sh | bash      |
-| 3        | wget -qO- 86.re/bench.sh | bash |
-| 4        | curl -so- 86.re/bench.sh | bash |
+#### 使用方法
+方法一
 ```
-
-
-
-
+wget -qO- bench.sh | bash
+```
+或者
+```
+curl -Lso- bench.sh | bash
+```
+方法二
+```
+wget -qO- 86.re/bench.sh | bash
+```
+或者
+```
+curl -so- 86.re/bench.sh | bash
+```
