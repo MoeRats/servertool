@@ -46,7 +46,13 @@ lsmod | grep bbr
 
 # 服务器测试
 服务器下载和I/O测速脚本
+自动测试下载和I / O速度脚本
 
+#### 功能
+显示当前测试的各种系统信息；
+取自世界多处的知名数据中心的测试点，下载测试比较全面；
+支持 IPv6 下载测速；
+IO 测试三次，并显示平均值。
 #### 使用命令
 ```bash
 Usage:
@@ -59,6 +65,6 @@ Usage:
 | 4        | curl -so- 86.re/bench.sh | bash |
 ```
 
-[查看介绍](https://github.com/quniu/tool/wiki/bench%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC%E4%BB%8B%E7%BB%8D)
+
 
 
